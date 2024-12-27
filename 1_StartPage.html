@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI Form</title>
+    <style>
+        .first-view-html {
+            background-color: #fffaee;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            font-size: 24px;
+            color: #313332;
+            font-family: "Pretendard Variable-Regular", Helvetica;
+            font-weight: 400;
+            margin-right: 10px;
+        }
+
+        .form-input {
+            font-size: 18px;
+            padding: 10px;
+            width: 300px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .text-wrapper-4 {
+            margin-top: 20px;
+            color: #487bcd;
+            font-size: 14px;
+            font-family: "Pretendard Variable-Regular", Helvetica;
+            font-weight: 400;
+        }
+
+        .text-wrapper-4 a {
+            text-decoration: none;
+            color: #487bcd;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 50px;
+            margin-top: 20px;
+        }
+
+        .overlap-group {
+            margin-top: 40px;
+            width: 174px;
+            height: 70px;
+            background-color: #f5e18a;
+            border-radius: 25px;
+            box-shadow: 0px 2px 16px #00000029;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .overlap-group a {
+            color: #4a4a4a;
+            font-size: 24px;
+            font-family: "Pretendard Variable-Regular", Helvetica;
+            font-weight: 400;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-view-html">
+        <!-- 이름 입력 필드 -->
+        <div class="form-row">
+            <label class="form-label" for="name">이름</label>
+            <input class="form-input" id="name" type="text" placeholder="이름을 입력하세요" />
+        </div>
+
+        <!-- MBTI 입력 필드 -->
+        <div class="form-row">
+            <label class="form-label" for="mbti">MBTI</label>
+            <input class="form-input" id="mbti" type="text" placeholder="MBTI를 입력하세요" />
+        </div>
+
+        <!-- MBTI 검사하러 가기 -->
+        <div class="text-wrapper-4">
+            <a href="https://www.16personalities.com/ko/%EB%AC%B4%EB%A3%8C-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%EA%B2%80%EC%82%AC" target="_blank">MBTI 검사하러 가기</a>
+        </div>
+
+        <!-- 부모/자녀 선택 라디오 버튼 -->
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="relation" value="parent" /> 부모
+            </label>
+            <label>
+                <input type="radio" name="relation" value="child" /> 자녀
+            </label>
+        </div>
+
+        <!-- 시작하기 버튼 -->
+        <div class="overlap-group">
+            <a href="2_together_happy.html">시작하기</a>
+        </div>
+    </div>
+</body>
+</html>
