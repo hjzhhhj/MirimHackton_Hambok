@@ -1,0 +1,187 @@
+.first-view-html {
+    background-color: #fffaee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.first-view-html .div {
+    background-color: #fffaee;
+    width: 100%; /* 화면에 맞추기 위해 width를 100%로 수정 */
+    max-width: 1440px; /* 최대 크기 제한 */
+    height: 1024px;
+    position: relative;
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
+.first-view-html .line {
+    top: 300px;
+    position: absolute;
+    width: 30%; /* 픽셀 대신 퍼센트로 조정 */
+    height: 2px;
+    left: 35%; /* 위치를 상대적으로 설정 */
+}
+
+.first-view-html .text-wrapper {
+    top: 249px;
+    left: 40%; /* 상대적 위치 */
+    color: #e5e5e5;
+    font-size: 24px; /* 글씨 크기 줄이기 */
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Pretendard Variable-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.first-view-html .text-wrapper-2 {
+    top: 265px;
+    left: 30%; /* 상대적 위치 */
+    color: #313332;
+    font-size: 24px; /* 글씨 크기 줄이기 */
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Pretendard Variable-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.first-view-html .img {
+    top: 486px;
+    position: absolute;
+    width: 30%; /* 퍼센트로 변경 */
+    height: 2px;
+    left: 35%; /* 위치를 상대적으로 설정 */
+}
+
+.first-view-html .text-wrapper-3 {
+    top: 435px;
+    left: 40%; /* 상대적 위치 */
+    color: #e5e5e5;
+    font-size: 24px; /* 글씨 크기 줄이기 */
+    position: absolute;
+    font-family: "Pretendard Variable-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.first-view-html .text-wrapper-4 {
+    top: 497px;
+    left: 35%;
+    color: #487bcd;
+    font-size: 14px; /* 글씨 크기 줄이기 */
+    position: absolute;
+    font-family: "Pretendard Variable-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.first-view-html .text-wrapper-5 {
+    top: 451px;
+    left: 30%;
+    color: #313332;
+    font-size: 24px; /* 글씨 크기 줄이기 */
+    position: absolute;
+    font-family: "Pretendard Variable-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.first-view-html .text-wrapper-6 {
+    top: 637px;
+    left: 30%;
+    color: #313332;
+    font-size: 24px; /* 글씨 크기 줄이기 */
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Pretendard Variable-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.first-view-html .group {
+    position: absolute;
+    width: 109px;
+    height: 36px;
+    top: 638px;
+    left: 40%; /* 상대적 위치 */
+}
+
+.first-view-html .text-wrapper-7 {
+    top: 0;
+    left: 55px;
+    color: #616159;
+    font-size: 24px; /* 글씨 크기 줄이기 */
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Pretendard Variable-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.first-view-html .ellipse {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    left: 0;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #d9d9d9;
+}
+
+.first-view-html .group-2 {
+    position: absolute;
+    width: 109px;
+    height: 36px;
+    top: 638px;
+    left: 50%; /* 상대적 위치 */
+}
+
+.first-view-html .group-wrapper {
+    position: absolute;
+    width: 174px;
+    height: 70px;
+    top: 846px;
+    left: 45%; /* 위치를 중앙에 맞추기 위해 퍼센트로 수정 */
+}
+
+.first-view-html .overlap-group-wrapper {
+    width: 176px;
+    height: 70px;
+}
+
+.first-view-html .overlap-group {
+    position: relative;
+    width: 174px;
+    height: 70px;
+    background-color: #f5e18a;
+    border-radius: 25px;
+    box-shadow: 0px 2px 16px #00000029;
+}
+
+.first-view-html .text-wrapper-8 {
+    width: 94px;
+    height: 32px;
+    top: 18px;
+    left: 40px;
+    color: #4a4a4a;
+    font-size: 24px; /* 글씨 크기 줄이기 */
+    text-align: center;
+    position: absolute;
+    font-family: "Pretendard Variable-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}

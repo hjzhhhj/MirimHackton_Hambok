@@ -1,0 +1,171 @@
+.study {
+    background-color: #fffbee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .study .div {
+    background-color: #fffbee;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .study .AUTO {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px;
+    position: absolute;
+    top: 44px;
+    left: 567px;
+  }
+  
+  .study .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -2.00px;
+    margin-left: -1.00px;
+    -webkit-text-stroke: 1px #cbcbcb;
+    font-family: "Pretendard Variable-Medium", Helvetica;
+    font-weight: 500;
+    color: #121212;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .study .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -2.00px;
+    -webkit-text-stroke: 1px #cccccccc;
+    font-family: "Pretendard Variable-Medium", Helvetica;
+    font-weight: 500;
+    color: #121212;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .study .group {
+    position: absolute;
+    width: 87px;
+    height: 62px;
+    top: 46px;
+    left: 1175px;
+  }
+  
+  .study .text-wrapper-3 {
+    top: 29px;
+    left: 0;
+    color: #4a4a4a;
+    font-size: 27px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .study .text-wrapper-4 {
+    top: 0;
+    left: 46px;
+    color: #ffd12c;
+    font-size: 20px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .study .home {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 36px;
+    left: 65px;
+  }
+  
+  .study .overlap-group {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 35px;
+    left: 1276px;
+    background-color: #d9d9d9;
+    border-radius: 41.5px;
+  }
+  
+  .study .material-symbols {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 12px;
+    left: 14px;
+  }
+  
+  .study .overlap {
+    position: absolute;
+    width: 595px;
+    height: 735px;
+    top: 198px;
+    left: 94px;
+    background-color: #d9d9d9;
+  }
+  
+  .study .rectangle {
+    position: absolute;
+    width: 595px;
+    height: 735px;
+    top: 0;
+    left: 0;
+    background-color: #fefafa;
+  }
+  
+  .study .element {
+    width: 533px;
+    top: 24px;
+    left: 33px;
+    color: #000000;
+    font-size: 22px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .study .div-wrapper {
+    position: absolute;
+    width: 595px;
+    height: 735px;
+    top: 198px;
+    left: 736px;
+    background-color: #ffffff;
+  }
+  
+  .study .p {
+    width: 533px;
+    top: 24px;
+    left: 37px;
+    color: #000000;
+    font-size: 22px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
