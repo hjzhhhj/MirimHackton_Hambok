@@ -1,3 +1,3 @@
 ## MirimHackton
 
-Backend Developer
+Frontend Developer
